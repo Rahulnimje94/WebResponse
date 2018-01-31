@@ -14,6 +14,7 @@
 		1744771B2021A1DB006A79D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174477192021A1DB006A79D1 /* LaunchScreen.storyboard */; };
 		174477262021A1DB006A79D1 /* WenResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174477252021A1DB006A79D1 /* WenResponseTests.swift */; };
 		174477312021A1DB006A79D1 /* WenResponseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174477302021A1DB006A79D1 /* WenResponseUITests.swift */; };
+		1744773F2021A942006A79D1 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1744773E2021A942006A79D1 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1744772C2021A1DB006A79D1 /* WenResponseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WenResponseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		174477302021A1DB006A79D1 /* WenResponseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WenResponseUITests.swift; sourceTree = "<group>"; };
 		174477322021A1DB006A79D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1744773E2021A942006A79D1 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				174477102021A1DB006A79D1 /* AppDelegate.swift */,
 				174477122021A1DB006A79D1 /* ViewController.swift */,
+				1744773E2021A942006A79D1 /* CustomTableViewCell.swift */,
 				174477142021A1DB006A79D1 /* Main.storyboard */,
 				174477172021A1DB006A79D1 /* Assets.xcassets */,
 				174477192021A1DB006A79D1 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1744773F2021A942006A79D1 /* CustomTableViewCell.swift in Sources */,
 				174477132021A1DB006A79D1 /* ViewController.swift in Sources */,
 				174477112021A1DB006A79D1 /* AppDelegate.swift in Sources */,
 			);
